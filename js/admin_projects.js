@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     let projectGitRepoInput = document.getElementById("projects-git-url");
     let projectImageInput = document.getElementById("projects-image-url");
     let submitBtn = document.getElementById("projects-submit-btn");
-    let token;
     let ProjectId;
 
     function addProjectToTable(tableBody, data) {
@@ -158,8 +157,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         }
     }
-
-    token = localStorage.getItem('user');
 
     submitBtn.addEventListener("click", (e) => {
         e.preventDefault();

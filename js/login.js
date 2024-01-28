@@ -2,8 +2,6 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
-const apiEndpoint = "/api/v1/auth";
-
 function loginDisplayMesg(msg, status) {
     let loginMsg = document.getElementById("login-message");
 
@@ -30,8 +28,7 @@ async function sendLoginRequest(loginDetails) {
     if (error !== null) {
         loginDisplayMesg(error, "failure");
     } else {
-        // localStorage.setItem('user', data["token"]);
-        // window.location.replace("/admin.html");
+        window.location.replace("/admin.html");
     }
 }
 

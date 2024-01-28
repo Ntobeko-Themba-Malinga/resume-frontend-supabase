@@ -3,7 +3,6 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 let contactIds = [];
-let token;
 
 function contactIdExist(contactId) {
     for (let i=0; i < contactIds.length; i++) {
@@ -59,7 +58,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     let tableBody = document.getElementById("contacts-table-body");
 
-    token = localStorage.getItem('user');
     enableLoader();
     getContactRequest(tableBody);
     disableLoader();

@@ -151,8 +151,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
-    token = localStorage.getItem('user');
-
     submitBtn.addEventListener("click", (e) => {
         e.preventDefault();
        
