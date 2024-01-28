@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ADMIN PAGE</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/admin_projects.css">
+        <link rel="stylesheet" href="css/loader.css">
+    </head>
+    <body>
+        <div class="container">
+            <img src="img/menu-icon.png" alt="" id="menu-icon">
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><img class="link-img" src="img/home.png" alt=""> <a class="nav-link-text" href="admin.html">CONTACTS</a></li>
+                        <li><img class="link-img" src="img/skills.png" alt=""> <a class="nav-link-text" href="admin_skills.html">SKILLS</a></li>
+                        <li><img class="link-img" src="img/projects.png" alt=""> <a class="nav-link-text" href="admin_projects.html">PROJECTS</a></li>
+                        <li><img class="link-img" src="img/hobbies.png" alt=""> <a class="nav-link-text active" href="admin_hobbies.html">HOBBIES</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="main">
+                <div id="projects-page">
+                    <table id="projects">
+                        <thead>
+                            <tr>
+                                <th>HOBBIES</th>
+                                <th>IMAGE URL</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="projects-table-body">
+                        </tbody>
+                    </table>
+                    <div id="projects-form">
+                        <form action="">
+                            <div>
+                                <input placeholder="PROJECT TITLE..." id="projects-title-input" type="text">
+                            </div>
+                            <div>
+                                <input placeholder="IMAGE URL..." id="projects-image-url" type="url">
+                            </div>
+                            <div>
+                                <input id="projects-submit-btn" value="SUBMIT" type="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="loading">
+                <div class="loader"></div>
+            </div>
+        </div>
+
+        <script src="js/index.js"></script>
+        <script src="js/menu.js"></script> 
+        <script type="module" src="js/admin_hobbies.js"></script>
+    </body>
+</html>
