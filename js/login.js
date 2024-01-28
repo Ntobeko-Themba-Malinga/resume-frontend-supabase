@@ -22,9 +22,6 @@ async function sendLoginRequest(loginDetails) {
     );
     disableLoader();
 
-    console.log(data);
-    console.log("error " + error);
-
     if (error !== null) {
         loginDisplayMesg(error, "failure");
     } else {
