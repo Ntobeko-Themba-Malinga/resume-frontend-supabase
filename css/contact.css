@@ -27,13 +27,13 @@
     text-align: center;
 }
 
-#contact-form {
+/* #contact-form {
     border: #444444 solid 2px;
     border-radius: 0.5rem;
     box-shadow: 4px 4px 4px #8ea1df;
     padding: 1rem;
     height: 100%;
-}
+} */
 
 #contact-form input {
     width: 30%;
@@ -43,6 +43,7 @@
     font-size: 1.4rem;
     box-shadow: 4px 4px 4px #8ea1df;
     border: none;
+    border-radius: 0.4rem;
 }
 
 #contact-form #message-input {
@@ -50,6 +51,8 @@
     box-shadow: 4px 4px 4px #8ea1df;
     border: none;
     margin-bottom: 1rem;
+    border-radius: 0.4rem;
+    text-align: left;
 }
 
 #contact-form #submit-input {
