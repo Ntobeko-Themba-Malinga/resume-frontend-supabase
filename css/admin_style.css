@@ -1,0 +1,33 @@
+.header {
+    justify-content: right;
+    margin-left: -1rem;
+}
+
+.space {
+    margin-bottom: 4rem;
+}
+/* .main-content {
+    margin: 7rem auto;
+    width: 100%;
+} */
+
+#navbar {
+    top: 0;
+    position: inherit;
+}
+
+#menu-icon {
+    margin-right: 2rem;
+}
+
+
+@media (max-width: 1024px) {
+    #navbar {
+        position: fixed;
+    }
+
+    #main {
+        width: 98%;
+        margin: 3rem auto;
+    }
+}

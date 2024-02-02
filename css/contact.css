@@ -23,7 +23,7 @@
 }
 
 #contact-body {
-    padding: 2rem;
+    padding-top: 6rem;
     text-align: center;
 }
 
@@ -71,14 +71,14 @@
     }
 
     #contact-form input {
-        width: 90%;
+        width: 80%;
     }
 
     #contact-form #message-input {
-        width: 100%;
+        width: 90%;
     }
 
     #contact-form #submit-input {
-        width: 100%;
+        width: 90%;
     }
 }

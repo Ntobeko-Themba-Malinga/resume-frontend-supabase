@@ -21,6 +21,8 @@
 #skills-body ul {
     list-style: none;
     /* border: #333 solid 2px; */
+    width: 60%;
+    margin: 0 auto;
     margin-bottom: 10rem;
 }
 
@@ -38,7 +40,7 @@
 }
 
 @media (max-width: 1024px) {
-    #about-body p {
-        width: 90%;
+    #skills-body ul {
+        width: 100%;
     }
 }
